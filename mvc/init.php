@@ -1,20 +1,11 @@
 
-
-<!-- -->
 <?php
-session_start();
+    session_start();
+    ob_start();
+    // include 'controller/user.php';
 
-?>
-
-<?php
-    
-// require 'config/config.php';
-require_once 'controller/conn.php';
-include 'view/header.php';
-
-// include 'view/bestSeller.php';
-// include 'view/detail.php';
-// include 'view/promo.php';
+    require_once 'controller/conn.php';
+    include 'view/header.php';
 if(isset($_REQUEST['page'])) {
     $page = $_REQUEST['page'];
     switch ($page) {
@@ -33,8 +24,26 @@ if(isset($_REQUEST['page'])) {
         include 'view/shoppingcart.php';
         break;
         case 'login':
+            if(isset($_POST['btn_login'])&& isset($_POST['btn_login'])){
+                $user=$_POST["user"];
+                $pass=$_POST["pass"];
+                $kq=get_user_info($user,$pass);
+                $role=$kq[0]['role'];
+                if($role==1)
+                {
+                    $_SESSION['role']=$role;
+                    header('location: admin.php');
+                }else{
+                    $_SESSION['role']=$role;
+                    $_SESSION['id']=$kq[0]['id'];
+                    $_SESSION['user']=$kq[0]['user'];
+                    header('location: init.php');
+                    break;
+                }
+            }
+        case 'login';
             include 'view/login.php';
-            break;
+        break;    
         case 'register';
             include 'view/register.php';
         break;
@@ -55,8 +64,7 @@ if(isset($_REQUEST['page'])) {
         break;
     }
 }else {
-    include 'view/banner-span.php';
-    include 'view/cate-time.php';
+    include 'view/home.php';
 };
 include 'view/footer.php';
 ?>

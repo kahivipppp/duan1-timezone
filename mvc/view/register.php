@@ -40,12 +40,16 @@
 
 					<form action="model/register_m.php" class="signin-form" method="POST" enctype="multipart/form-data">
                             <div class="form-group mb-3">
-                                    <label class="label" for="name">Username</label>
-                                    <input type="text" class="form-control" placeholder="Username" name="name" required>
+                                    <label class="label" for="name">Name</label>
+                                    <input type="text" class="form-control" placeholder="name" name="name" required>
                             </div>
                             <div class="form-group mb-3">
                                 <label class="label" for="email">Email</label>
                                 <input type="text" class="form-control" placeholder="Email" name="email" required>
+                            </div>
+							<div class="form-group mb-3">
+                                    <label class="label" for="name">Username</label>
+                                    <input type="text" class="form-control" placeholder="Username" name="user" required>
                             </div>
                             <div class="form-group mb-3">
                                 <label class="label" for="password">Password</label>
@@ -56,8 +60,12 @@
                                 <input type="password" class="form-control" placeholder="Comfirm" name="confirmpassword" required>
                             </div>
 							<div class="form-group mb-3">
+                                <label class="label" for="confirm">Address</label>
+                                <input type="text" class="form-control" placeholder="address" name="address" >
+                            </div>
+							<div class="form-group mb-3">
                                 <label class="label" for="confirm">choses picture </label>
-                                <input type="file" class="form-control"  name="img" >
+                                <input type="file" class="form-control"  name="images" >
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="submit" value="Register">Sign In</button>

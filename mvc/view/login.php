@@ -40,12 +40,17 @@
 							<form action="model/login_m.php" class="signin-form" method="POST" enctype="multipart/form-data" >
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
-			      			<input type="text" class="form-control" placeholder="Username" name="usr" required>
+			      			<input type="text" class="form-control" placeholder="Username" name="user" required>
 			      		</div>
 		            <div class="form-group mb-3">
 		            	<label class="label" for="password">Password</label>
-		              <input type="password" class="form-control" placeholder="Password" name="pwd" required>
+		              <input type="password" class="form-control" placeholder="Password" name="pass" required>
 		            </div>
+					<?php
+						if(isset($tb)&&($tb!="")){
+							echo "<h3 style='color:red'>".$tb."</h3>";
+						}
+    				?>
 		            <div class="form-group">
 		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3" name ="btn_login" value="login" onclick=" return check()">Sign In</button>
 		            </div>
