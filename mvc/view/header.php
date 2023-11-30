@@ -62,7 +62,7 @@
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__text">
-            <p>Free shipping, 30-day return or refund guarantee.</p>
+            <p>Miễn phí vận chuyển, đảm bảo hoàn trả hoặc hoàn tiền trong 30 ngày.</p>
         </div>
     </div>
     <!-- Offcanvas Menu End -->
@@ -74,7 +74,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-7">
                         <div class="header__top__left">
-                            <p>Free shipping, 30-day return or refund guarantee.</p>
+                            <p>Miễn phí vận chuyển, đảm bảo hoàn trả hoặc hoàn tiền trong 30 ngày.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-5">
@@ -137,19 +137,19 @@
                 <div class="col-lg-6 col-md-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li class="active"><a href="init.php">Home</a></li>
-                            <li><a href="init.php?page=shop">Shop</a></li>
+                            <li class="active"><a href="init.php">Trang chủ</a></li>
+                            <li><a href="init.php?page=shop">Cửa hàng</a></li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="init.php?page=about">About Us</a></li>
-                                    <li><a href="init.php?page=details">Shop Details</a></li>
-                                    <li><a href="init.php?page=shoppingcart">Shopping Cart</a></li>
+                                    <li><a href="init.php?page=about">Về chúng tôi</a></li>
+                                    <li><a href="init.php?page=details">Chi tiết sản phẩm</a></li>
+                                    <li><a href="init.php?page=shoppingcart">Giỏ hàng</a></li>
                                     <li><a href="init.php?page=checkout">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                    <li><a href="./blog-details.html">Bài viết chi tiết</a></li>
                                 </ul>
                             </li>
-                            <li><a href="init.php?page=blog">Blog</a></li>
-                            <li><a href="init.php?page=contact">Contacts</a></li>
+                            <li><a href="init.php?page=blog">Bài viết</a></li>
+                            <li><a href="init.php?page=contact">Liên hệ</a></li>
                         </ul>
                     </nav>
                 </div>

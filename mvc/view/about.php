@@ -32,10 +32,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__text">
-                        <h4>About Us</h4>
+                        <h4>Về chúng tôi</h4>
                         <div class="breadcrumb__links">
-                            <a href="./index.html">Home</a>
-                            <span>About Us</span>
+                            <a href="./index.html">Trang chủ</a>
+                            <span>Về chúng tôi</span>
                         </div>
                     </div>
                 </div>
@@ -57,23 +57,20 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="about__item">
-                        <h4>Who We Are ?</h4>
-                        <p>Contextual advertising programs sometimes have strict policies that need to be adhered too.
-                        Let’s take Google as an example.</p>
+                        <h4>Chúng tôi là ai ?</h4>
+                        <p>Các chương trình quảng cáo theo ngữ cảnh đôi khi cũng có những chính sách nghiêm ngặt cần được tuân thủ. Hãy lấy Google làm ví dụ.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="about__item">
-                        <h4>Who We Do ?</h4>
-                        <p>In this digital generation where information can be easily obtained within seconds, business
-                        cards still have retained their importance.</p>
+                        <h4>Chúng tôi làm gì ?</h4>
+                        <p>Trong thế hệ kỹ thuật số này, nơi có thể dễ dàng lấy được thông tin trong vòng vài giây, danh thiếp vẫn giữ được tầm quan trọng của chúng.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="about__item">
-                        <h4>Why Choose Us</h4>
-                        <p>A two or three storey house is the ideal way to maximise the piece of earth on which our home
-                        sits, but for older or infirm people.</p>
+                        <h4>Tại sao nên chọn chúng tôi</h4>
+                        <p>Một ngôi nhà hai hoặc ba tầng là cách lý tưởng để tận dụng tối đa mảnh đất mà ngôi nhà của chúng ta tọa lạc, nhưng dành cho những người già hoặc ốm yếu.</p>
                     </div>
                 </div>
             </div>
@@ -88,8 +85,7 @@
                 <div class="col-lg-6 p-0">
                     <div class="testimonial__text">
                         <span class="icon_quotations"></span>
-                        <p>“Going out after work? Take your butane curling iron with you to the office, heat it up,
-                            style your hair before you leave the office and you won’t have to make a trip back home.”
+                        <p>“Cuộc đời là của mình, hãy dùng thời gian mình có để thực hiện những hoài bão, đam mê nhé!”
                         </p>
                         <div class="testimonial__author">
                             <div class="testimonial__author__pic">
@@ -119,7 +115,7 @@
                         <div class="counter__item__number">
                             <h2 class="cn_num">102</h2>
                         </div>
-                        <span>Our <br />Clients</span>
+                        <span>Khách <br />hàng</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -127,7 +123,7 @@
                         <div class="counter__item__number">
                             <h2 class="cn_num">30</h2>
                         </div>
-                        <span>Total <br />Categories</span>
+                        <span>Danh <br />mục</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -135,7 +131,7 @@
                         <div class="counter__item__number">
                             <h2 class="cn_num">102</h2>
                         </div>
-                        <span>In <br />Country</span>
+                        <span>Quốc <br />gia</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -144,7 +140,7 @@
                             <h2 class="cn_num">98</h2>
                             <strong>%</strong>
                         </div>
-                        <span>Happy <br />Customer</span>
+                        <span>Hài <br />lòng</span>
                     </div>
                 </div>
             </div>
@@ -247,8 +243,8 @@
         </div>
     </div>
     <!-- Search End -->
-        <!-- Js Plugins -->
-        <script src="../public/js/jquery-3.3.1.min.js"></script>
+    <!-- Js Plugins -->
+    <script src="../public/js/jquery-3.3.1.min.js"></script>
     <script src="../public/js/bootstrap.min.js"></script>
     <script src="../public/js/jquery.nice-select.min.js"></script>
     <script src="../public/js/jquery.nicescroll.min.js"></script>

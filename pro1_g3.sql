@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 25, 2023 at 08:56 AM
+-- Generation Time: Nov 28, 2023 at 08:46 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -114,20 +114,23 @@ CREATE TABLE `products` (
 
 CREATE TABLE `register` (
   `id` int(11) NOT NULL,
-  `Username` varchar(100) NOT NULL,
+  `name` varchar(100) DEFAULT NULL,
   `email` varchar(100) NOT NULL,
-  `password` varchar(100) NOT NULL,
-  `confirmpassword` varchar(100) NOT NULL,
-  `img` varchar(125) NOT NULL
+  `user` varchar(100) NOT NULL,
+  `pass` varchar(100) NOT NULL,
+  `confirmpass` varchar(256) NOT NULL,
+  `address` varchar(255) NOT NULL,
+  `images` varchar(125) NOT NULL,
+  `role` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `register`
 --
 
-INSERT INTO `register` (`id`, `Username`, `email`, `password`, `confirmpassword`, `img`) VALUES
-(1, 'tuan', 'tuan@123gmai.com', '123', '123', 'te2.jpg'),
-(11, 'leo', 'susi123@gmail.com', '202cb962ac59075b964b07152d234b70', '123', 'te2.jpg');
+INSERT INTO `register` (`id`, `name`, `email`, `user`, `pass`, `confirmpass`, `address`, `images`, `role`) VALUES
+(0, NULL, 'susi123@gmail.com', 'leo', '202cb962ac59075b964b07152d234b70', '123', 'Đông Bắc Tân Chánh Hiệp Q12', 'te2.jpg', 0),
+(1, 'tuan', 'susi123@gmai.com', 'leo12', '123', '123', '0', 'teg2.jpg', 1);
 
 -- --------------------------------------------------------
 
@@ -263,12 +266,6 @@ ALTER TABLE `payment_methods`
 --
 ALTER TABLE `products`
   MODIFY `id_pdt` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `register`
---
-ALTER TABLE `register`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `voucher`

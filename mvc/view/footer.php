@@ -34,37 +34,35 @@
                         <div class="footer__logo">
                             <a href="#"><img src="../public/img/footer-logo.png" alt=""></a>
                         </div>
-                        <p>The customer is at the heart of our unique business model, which includes design.</p>
+                        <p>Khách hàng là trung tâm của mô hình kinh doanh, bao gồm cả thiết kế của chúng tôi.</p>
                         <a href="#"><img src="../public/img/payment.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
                     <div class="footer__widget">
-                        <h6>Shopping</h6>
+                        <h6>MUA SẮM</h6>
                         <ul>
-                            <li><a href="#">Clothing Store</a></li>
-                            <li><a href="#">Trending Shoes</a></li>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Sale</a></li>
+                            <li><a href="#">Đồng hồ thịnh hành</a></li>
+                            <li><a href="#">Giảm giá</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="footer__widget">
-                        <h6>Shopping</h6>
+                        <h6>MUA SẮM</h6>
                         <ul>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Payment Methods</a></li>
-                            <li><a href="#">Delivary</a></li>
-                            <li><a href="#">Return & Exchanges</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Phương thức thanh toán</a></li>
+                            <li><a href="#">Vận chuyển</a></li>
+                            <li><a href="#">Chính sách hoàn trả</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
                     <div class="footer__widget">
-                        <h6>NewLetter</h6>
+                        <h6>BẢN TIN</h6>
                         <div class="footer__newslatter">
-                            <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+                            <p>Hãy là người đầu tiên biết về hàng mới, sách tra cứu, khuyến mại và khuyến mãi!</p>
                             <form action="#">
                                 <input type="text" placeholder="Your email">
                                 <button type="submit"><span class="icon_mail_alt"></span></button>
