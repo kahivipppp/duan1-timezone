@@ -28,7 +28,7 @@
 						<div class="login-wrap p-4 p-md-5">
 			      	<div class="d-flex">
 			      		<div class="w-100">
-			      			<h3 class="mb-4">Sign up</h3>
+			      			<h3 class="mb-4">Đăng ký </h3>
 			      		</div>
 								<div class="w-100">
 									<p class="social-media d-flex justify-content-end">
@@ -40,7 +40,7 @@
 
 					<form action="model/register_m.php" class="signin-form" method="POST" enctype="multipart/form-data">
                             <div class="form-group mb-3">
-                                    <label class="label" for="name">Name</label>
+                                    <label class="label" for="name">Tên </label>
                                     <input type="text" class="form-control" placeholder="name" name="name" required>
                             </div>
                             <div class="form-group mb-3">
@@ -48,31 +48,31 @@
                                 <input type="text" class="form-control" placeholder="Email" name="email" required>
                             </div>
 							<div class="form-group mb-3">
-                                    <label class="label" for="name">Username</label>
+                                    <label class="label" for="name">Tên đăng nhập</label>
                                     <input type="text" class="form-control" placeholder="Username" name="user" required>
                             </div>
                             <div class="form-group mb-3">
-                                <label class="label" for="password">Password</label>
+                                <label class="label" for="password">Mật khẩu</label>
                                 <input type="password" class="form-control" placeholder="Password" name="password" required>
                             </div>
                             <div class="form-group mb-3">
-                                <label class="label" for="confirm">Comfirm Password</label>
+                                <label class="label" for="confirm">Ghi lại mật khẩu</label>
                                 <input type="password" class="form-control" placeholder="Comfirm" name="confirmpassword" required>
                             </div>
 							<div class="form-group mb-3">
-                                <label class="label" for="confirm">Address</label>
+                                <label class="label" for="confirm">Địa chỉ</label>
                                 <input type="text" class="form-control" placeholder="address" name="address" >
                             </div>
 							<div class="form-group mb-3">
-                                <label class="label" for="confirm">choses picture </label>
+                                <label class="label" for="confirm">Hình ảnh</label>
                                 <input type="file" class="form-control"  name="images" >
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="submit" value="Register">Sign In</button>
+                                <button type="submit" class="form-control btn btn-primary rounded submit px-3" name="submit" value="Register">Đăng nhập </button>
                             </div>
                             <div class="form-group d-md-flex">
                                 <div class="w-50 text-left">
-                                    <label class="checkbox-wrap checkbox-primary mb-0">Remember Me
+                                    <label class="checkbox-wrap checkbox-primary mb-0">Ghi nhớ
                                         <input type="checkbox" checked>
                                         <span class="checkmark"></span>
                                     </label>
@@ -82,7 +82,7 @@
                                 </div> -->
                             </div>
 		            </form>
-		          <p class="text-center">Not a member? <a href="init.php?page=login">Sign in</a></p>
+		          <p class="text-center">Bạn chưa có tài khoản ? <a href="init.php?page=login">Đăng nhập</a></p>
 		        </div>
 		      </div>
 				</div>

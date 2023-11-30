@@ -38,8 +38,8 @@
                             <img src="../public/img/banner/banner-1.jpg" alt="">
                         </div>
                         <div class="banner__item__text">
-                            <h2>Clothing Collections 2030</h2>
-                            <a href="#">Shop now</a>
+                            <h2> Bộ Sưu Tập 2030</h2>
+                            <a href="#"> Mua ngay </a>
                         </div>
                     </div>
                 </div>
@@ -49,8 +49,8 @@
                             <img src="../public/img/banner/banner-2.jpg" alt="">
                         </div>
                         <div class="banner__item__text">
-                            <h2>Accessories</h2>
-                            <a href="#">Shop now</a>
+                            <h2> Bộ Sưu Tập 2030</h2>
+                            <a href="#"> Mua ngay</a>
                         </div>
                     </div>
                 </div>
@@ -60,8 +60,8 @@
                             <img src="../public/img/banner/banner-3.jpg" alt="">
                         </div>
                         <div class="banner__item__text">
-                            <h2>Shoes Spring 2030</h2>
-                            <a href="#">Shop now</a>
+                            <h2> Bộ sưu tập 2030</h2>
+                            <a href="#"> Mua ngay</a>
                         </div>
                     </div>
                 </div>
@@ -76,9 +76,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="filter__controls">
-                        <li class="active" data-filter="*">Best Sellers</li>
-                        <li data-filter=".new-arrivals">New Arrivals</li>
-                        <li data-filter=".hot-sales">Hot Sales</li>
+                        <li class="active" data-filter="*">Sản phẩm bán chạy</li>
+                        <li data-filter=".new-arrivals">Sản phẩm mới </li>
+                        <li data-filter=".hot-sales">Giảm giá</li>
                     </ul>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                         </div>
                         <div class="product__item__text">
                             <h6>Piqué Biker Jacket</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <a href="#" class="add-cart"> Thêm vào giỏ hàng </a>
                             <div class="rating">
                                 <i class="fa fa-star-o"></i>
                                 <i class="fa fa-star-o"></i>
@@ -103,7 +103,7 @@
                                 <i class="fa fa-star-o"></i>
                                 <i class="fa fa-star-o"></i>
                             </div>
-                            <h5>$67.24</h5>
+                            <h5>170.000đ</h5>
                             <div class="product__color__select">
                                 <label for="pc-1">
                                     <input type="radio" id="pc-1">
@@ -129,7 +129,7 @@
                         </div>
                         <div class="product__item__text">
                             <h6>Piqué Biker Jacket</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <a href="#" class="add-cart"> Thêm vào giỏ hàng </a>
                             <div class="rating">
                                 <i class="fa fa-star-o"></i>
                                 <i class="fa fa-star-o"></i>
@@ -164,7 +164,7 @@
                         </div>
                         <div class="product__item__text">
                             <h6>Multi-pocket Chest Bag</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <a href="#" class="add-cart"> Thêm vào giỏ hàng </a>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -198,7 +198,7 @@
                         </div>
                         <div class="product__item__text">
                             <h6>Diagonal Textured Cap</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <a href="#" class="add-cart"> Thêm vào giỏ hàng </a>
                             <div class="rating">
                                 <i class="fa fa-star-o"></i>
                                 <i class="fa fa-star-o"></i>
@@ -232,7 +232,7 @@
                         </div>
                         <div class="product__item__text">
                             <h6>Lether Backpack</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <a href="#" class="add-cart"> Thêm vào giỏ hàng </a>
                             <div class="rating">
                                 <i class="fa fa-star-o"></i>
                                 <i class="fa fa-star-o"></i>
@@ -267,7 +267,7 @@
                         </div>
                         <div class="product__item__text">
                             <h6>Ankle Boots</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <a href="#" class="add-cart"> Thêm vào giỏ hàng </a>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -301,7 +301,7 @@
                         </div>
                         <div class="product__item__text">
                             <h6>T-shirt Contrast Pocket</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <a href="#" class="add-cart"> Thêm vào giỏ hàng </a>
                             <div class="rating">
                                 <i class="fa fa-star-o"></i>
                                 <i class="fa fa-star-o"></i>
@@ -335,7 +335,7 @@
                         </div>
                         <div class="product__item__text">
                             <h6>Basic Flowing Scarf</h6>
-                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <a href="#" class="add-cart"> Thêm vào giỏ hàng </a>
                             <div class="rating">
                                 <i class="fa fa-star-o"></i>
                                 <i class="fa fa-star-o"></i>
