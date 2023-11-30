@@ -1,3 +1,26 @@
+<?php
+    session_start();
+    include "../model/conn.php";
+    include "../model/user.php";
+    if(isset($_POST["login"])){
+        $uname=$_POST["uname"];
+        $psw=$_POST["psw"];
+        $user=checkuser($uname,$psw);
+        if(isset($user)&&(is_array($user))&&(count($user)>0)){
+            extract($user);
+            if($role==1){
+                $_SESSION['s_user']=$user;
+                header('location: ../init.php');
+            }else{
+                $tb="Tài khoản này không có quyền đăng nhập trang quản trị";
+            }
+        }else{
+            $tb="Tài khoản này không tồn tại!";
+        }
+        
+
+    }
+?>
 
 
 <!doctype html>
@@ -11,7 +34,7 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
-	<link rel="stylesheet" href="../public/css2/style.css">
+	<link rel="stylesheet" href="../../public/css2/style.css">
 
 	</head>
 	<body>
@@ -25,7 +48,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-12 col-lg-10">
 					<div class="wrap d-md-flex">
-						<div class="img" style="background-image: url(../public/img/hero/hero-3.jpg);">
+						<div class="img" style="background-image: url(../../public/img/hero/hero-3.jpg);">
 			      </div>
 						<div class="login-wrap p-4 p-md-5">
 			      	<div class="d-flex">
@@ -39,22 +62,22 @@
 									</p>
 								</div>
 			      	</div>
-							<form action="model/login_m.php" class="signin-form" method="POST" enctype="multipart/form-data" >
+							<form action="login.php" class="signin-form" method="POST" enctype="multipart/form-data" >
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
-			      			<input type="text" class="form-control" placeholder="Username" name="user" required>
+			      			<input type="text" class="form-control" placeholder="Username" name="uname" required>
 			      		</div>
 		            <div class="form-group mb-3">
 		            	<label class="label" for="password">Password</label>
-		              <input type="password" class="form-control" placeholder="Password" name="pass" required>
+		              <input type="password" class="form-control" placeholder="Password" name="psw" required>
 		            </div>
 					<?php
-						if(isset($txt_erro)&&($txt_erro!="")){
-							echo $txt_erro;
+						if(isset($tb)&&($tb!="")){
+							echo "<h5 style='color:red'>".$tb."</h5>";
 						}
     				?>
 		            <div class="form-group">
-		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3" name ="btn_login" value="login" >Sign In</button>
+		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3" name ="login" value="login" >Sign In</button>
 		            </div>
 		            <div class="form-group d-md-flex">
 		            	<div class="w-50 text-left">
@@ -83,4 +106,5 @@
 
 	</body>
 </html>
+
 

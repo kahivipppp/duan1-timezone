@@ -3,7 +3,7 @@
     session_start();
     ob_start();
     // include 'controller/user.php';
-
+    // require_once "model/products_m.php";
     require_once 'controller/conn.php';
     include 'view/header.php';
 if(isset($_REQUEST['page'])) {
